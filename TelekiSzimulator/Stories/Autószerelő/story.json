@@ -1,0 +1,144 @@
+{
+  "title": "Autószerelő",
+  "start": "1",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "Autószerelőnél",
+      "level": 0,
+      "ending": false,
+      "text": "Elvitted a Kocsidat autószerelőhöz mert furcsa hangokat hallottál belőle",
+      "media": "1.jpg",
+      "choices": [
+        {
+          "label": "Visszamegyek a kocsimért",
+          "next": "2"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Amire nem számítottál",
+      "level": 1,
+      "ending": false,
+      "text": "Amikor visszamész a műhelybe az autódat így látod... \r\nMegkérdezi a szerelő hogy a jó hírt vagy a rosszat akarok",
+      "media": "2.jpg",
+      "choices": [
+        {
+          "label": "A rosszat",
+          "next": "4"
+        },
+        {
+          "label": "A jót",
+          "next": "3"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "A jó hír",
+      "level": 2,
+      "ending": false,
+      "text": "A jó hír az az hogy ez valakinek másnak a kocsija volt",
+      "media": "3.jpg",
+      "choices": [
+        {
+          "label": "Azért szeretném a rosszat is hallani",
+          "next": "10"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "a jobb hir",
+      "level": 2,
+      "ending": false,
+      "text": "A kocsid egy roncshalmaz",
+      "media": "10.jpg",
+      "choices": [
+        {
+          "label": "És mennyi az ára",
+          "next": "5"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "A rossz hír",
+      "level": 2,
+      "ending": false,
+      "text": "A rossz hír hogy a te autód így néz ki",
+      "media": "4.jpg",
+      "choices": [
+        {
+          "label": "És mi a jó?",
+          "next": "9"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "az \"jó\" hír",
+      "level": 2,
+      "ending": false,
+      "text": "Legalább nem kell vázat cserélni",
+      "media": "9.jpg",
+      "choices": [
+        {
+          "label": "És mennyi az ára",
+          "next": "5"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Az ár",
+      "level": 3,
+      "ending": false,
+      "text": "Sajnos ahogy megláttad az autód számítottál erre- Akciósan 500000 Ft",
+      "media": "5.jpg",
+      "choices": [
+        {
+          "label": "Basszus",
+          "next": "6"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Telefonhívás",
+      "level": 4,
+      "ending": false,
+      "text": "Kapsz egy hívást egy ismeretlen számról",
+      "media": "6.jpg",
+      "choices": [
+        {
+          "label": "Felveszed, ki lehet az?",
+          "next": "7"
+        },
+        {
+          "label": "Leteszed, stresszes vagy",
+          "next": "8"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Az elkerülhetetlen",
+      "level": 0,
+      "ending": true,
+      "text": "A gatyád is rámegy a kocsidra",
+      "media": "8.jpg",
+      "choices": []
+    },
+    {
+      "id": "7",
+      "title": "Váratlan fordulat",
+      "level": 0,
+      "ending": true,
+      "text": "A hívó szeretne neked 10 millió forintot adni",
+      "media": "7.jpg",
+      "choices": []
+    }
+  ]
+}
